@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da Velha</title>
+  <style>
+    * {
+      border: 0;
+      padding: 0;
+    }
+
+    img {
+      width: 50px;
+      height: 50px;
+    }
+
+    #titulo {
+      float: left;
+      margin-right: 15px;
+    }
+
+    #mostrador {
+      margin: auto;
+      margin-top: 45px;
+      margin-bottom: 45px;
+      width: 312px;
+    }
+
+    .espaco {
+      width: 100px;
+      height: 70px;
+      border: 2px solid #000;
+      float: left;
+      text-align: center;
+      padding-top: 30px;
+    }
+
+    .tabuleiro {
+      margin: auto;
+      width: 312px;
+      height: 312px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="mostrador">
+    <p id="titulo">Vez do Jogador:</p>
+    <img src="./img/cat.svg" />
+  </div>
+
+  <div class="tabuleiro">
+    <div id="a1" class="espaco" jogada="">
+      <img src="./img/dog.svg" />
+    </div>
+    <div id="a2" class="espaco" jogada=""></div>
+    <div id="a3" class="espaco" jogada=""></div>
+
+    <div id="b1" class="espaco" jogada=""></div>
+    <div id="b2" class="espaco" jogada=""></div>
+    <div id="b3" class="espaco" jogada=""></div>
+
+    <div id="c1" class="espaco" jogada=""></div>
+    <div id="c2" class="espaco" jogada=""></div>
+    <div id="c3" class="espaco" jogada=""></div>
+  </div>
+
+  <!-- <h1>Laurinha <3</h1>
+  <img src="./img/cat.svg" />
+  <img src="./img/dog.svg" /> -->
+</body>
+
+</html>
